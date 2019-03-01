@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                   = "SwiftWebSocket"
-  s.version                = "2.7.0"
+  s.version                = "2.7.1"
   s.summary                = "A high performance WebSocket client library for Swift."
   s.homepage               = "https://github.com/tidwall/SwiftWebSocket"
   s.license                = { :type => "Attribution License", :file => "LICENSE" }
@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.source_files           = "Source/*.swift"
   s.requires_arc           = true
   s.libraries              = 'z'
+  s.swift_version          = '4.2'
 end
